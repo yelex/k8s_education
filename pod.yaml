@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
     - name: web
-      image: developer/py_app:v0.1
+      image: docker.io/developer/py_app:v0.1
       imagePullPolicy: Never  # Важно! Не пытаться загружать из реестра
       ports:
         - name: web
