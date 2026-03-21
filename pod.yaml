@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: simple-web
+  namespace: web-app-dev
+spec:
+  containers:
+    - name: web
+      image: root/py_app:v0.1
+                                 ## image: <имя_пользователя>/<репозиторий>/<тег>
+      imagePullPolicy: Always
+      ports:
+        - name: web
+          containerPort: 8080
+          protocol: TCP
