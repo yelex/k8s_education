@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
     - name: web
-      image: root/py_app:v0.1
+      image: py_app:v0.1
                                  ## image: <имя_пользователя>/<репозиторий>/<тег>
       imagePullPolicy: Always
       ports:
