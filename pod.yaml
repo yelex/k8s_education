@@ -6,8 +6,8 @@ metadata:
 spec:
   containers:
     - name: web
-      image: developer/py_app:v0.1
-      imagePullPolicy: Never  # Важно! Не пытаться загружать из реестра
+      image: developer/go:v0.2
+      imagePullPolicy: Always
       ports:
         - name: web
           containerPort: 8080
