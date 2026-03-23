@@ -6,8 +6,8 @@ metadata:
 spec:
   containers:
     - name: web
-      image: developer/go:v0.2
-      imagePullPolicy: Always
+      image: go:v0.2
+      imagePullPolicy: Never
       ports:
         - name: web
           containerPort: 8080
