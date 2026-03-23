@@ -6,8 +6,8 @@ metadata:
 spec:
   containers:
     - name: web
-      image: go:v0.2
-      imagePullPolicy: Never
+      image: yelex/go:v0.2
+      imagePullPolicy: Always
       ports:
         - name: web
           containerPort: 8080
