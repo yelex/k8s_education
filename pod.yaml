@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
     - name: web
-      image: yelex/go:v0.2
+      image: yelex/lesson1:v0.2
       imagePullPolicy: Always
       ports:
         - name: web
