@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: web
-        image: ksxack/lesson1:v0.2 ## Используйте свой Образ
+        image: yelex/lesson1:v0.2 ## Используйте свой Образ
         ports:
         - containerPort: 8080
